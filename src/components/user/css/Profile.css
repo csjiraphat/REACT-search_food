@@ -1,0 +1,49 @@
+/* ProfileStyles.css */
+
+.Profile {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .PostGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .PostCard {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .UserInfo {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .PostImage {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .DeleteButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff5252;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
